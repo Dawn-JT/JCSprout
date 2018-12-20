@@ -121,9 +121,7 @@ Java 中可以使用 `volatile` 来保证顺序性，`synchronized 和 lock` 也
         new Thread(new Runnable() {
             @Override
             public void run() {
-                while (flag) {
-                    doSomeThing();
-                }
+                doSomeThing();
             }
         });
     }
