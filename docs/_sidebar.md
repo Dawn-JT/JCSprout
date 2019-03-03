@@ -27,6 +27,7 @@
   - [你应该知道的 volatile 关键字](jvm/volatile.md)
   - [一次内存溢出排查优化实战](jvm/OOM-Disruptor.md)
   - [一次 HashSet 所引起的并发问题](jvm/JVM-concurrent-HashSet-problem.md)
+  - [一次生产 CPU 100% 排查优化实践](jvm/cpu-percent-100.md)
 
 - 分布式
 
@@ -40,7 +41,6 @@
   - [Spring Bean 生命周期](frame/spring-bean-lifecycle.md)
   - [Spring AOP 的实现原理](frame/SpringAOP.md) 
   - [Guava 源码分析（Cache 原理）](frame/guava-cache.md)
-  - [轻量级 HTTP 框架](frame/cicada.md)
   - [Kakfa produce 源码分析](frame/kafka-product.md)
   - [Kafka 消费实践](frame/kafka-consumer.md)
   - SpringBoot 启动过程
@@ -71,6 +71,8 @@
 
   - [SpringBoot 整合长连接心跳机制](netty/Netty(1)TCP-Heartbeat.md)
   - [从线程模型的角度看 Netty 为什么是高性能的？](netty/Netty(2)Thread-model.md)
+  - [自己实现一个轻量级 HTTP 框架](netty/cicada.md)
+  - [为自己搭建一个分布式 IM(即时通讯) 系统](netty/cim.md)
 
 - 附加技能
 
